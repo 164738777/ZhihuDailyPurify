@@ -6,6 +6,7 @@ ZhihuDailyAPI.md
 /.idea/workspace.xml
 /.idea/libraries
 .DS_Store
+/app/build
 /build
 /captures
 /keystores
