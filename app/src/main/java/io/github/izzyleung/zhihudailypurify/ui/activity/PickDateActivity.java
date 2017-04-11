@@ -14,9 +14,12 @@ import io.github.izzyleung.zhihudailypurify.support.Constants;
 public class PickDateActivity extends BaseActivity {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        layoutResID = R.layout.activity_pick_date;
+    protected int setContentViewLayout() {
+        return R.layout.activity_pick_date;
+    }
 
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         //noinspection ConstantConditions

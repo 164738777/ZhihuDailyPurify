@@ -2,7 +2,6 @@ package io.github.izzyleung.zhihudailypurify.ui.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -14,32 +13,34 @@ import android.view.MenuItem;
 import java.text.DateFormat;
 import java.util.Calendar;
 
+import butterknife.BindView;
+import butterknife.OnClick;
 import io.github.izzyleung.zhihudailypurify.R;
 import io.github.izzyleung.zhihudailypurify.support.Constants;
 import io.github.izzyleung.zhihudailypurify.ui.fragment.NewsListFragment;
 
 public class MainActivity extends BaseActivity {
     private static final int PAGE_COUNT = 7;
-    
+
+    @BindView(R.id.main_pager_tabs)
+    TabLayout mTabs;
+    @BindView(R.id.main_pager)
+    ViewPager mViewPager;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        layoutResID = R.layout.activity_main;
-
         super.onCreate(savedInstanceState);
 
-        TabLayout tabs = (TabLayout) findViewById(R.id.main_pager_tabs);
-        ViewPager viewPager = (ViewPager) findViewById(R.id.main_pager);
-        assert tabs != null;
-        assert viewPager != null;
-        viewPager.setOffscreenPageLimit(PAGE_COUNT);
+        mViewPager.setOffscreenPageLimit(PAGE_COUNT);
 
         MainPagerAdapter adapter = new MainPagerAdapter(getSupportFragmentManager());
-        viewPager.setAdapter(adapter);
-        tabs.setupWithViewPager(viewPager);
+        mViewPager.setAdapter(adapter);
+        mTabs.setupWithViewPager(mViewPager);
+    }
 
-        FloatingActionButton floatingActionButton = (FloatingActionButton) findViewById(R.id.fab_pick_date);
-        assert floatingActionButton != null;
-        floatingActionButton.setOnClickListener(v -> prepareIntent(PickDateActivity.class));
+    @Override
+    protected int setContentViewLayout() {
+        return R.layout.activity_main;
     }
 
     @Override
@@ -62,6 +63,11 @@ public class MainActivity extends BaseActivity {
     private boolean prepareIntent(Class clazz) {
         startActivity(new Intent(MainActivity.this, clazz));
         return true;
+    }
+
+    @OnClick(R.id.fab_pick_date)
+    public void onFloatingButtonClick() {
+        prepareIntent(PickDateActivity.class);
     }
 
     private class MainPagerAdapter extends FragmentStatePagerAdapter {

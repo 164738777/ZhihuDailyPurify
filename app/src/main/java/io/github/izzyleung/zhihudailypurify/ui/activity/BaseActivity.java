@@ -1,30 +1,36 @@
 package io.github.izzyleung.zhihudailypurify.ui.activity;
 
 import android.os.Bundle;
+import android.support.annotation.LayoutRes;
 import android.support.design.widget.CoordinatorLayout;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
 import io.github.izzyleung.zhihudailypurify.R;
 
 public class BaseActivity extends AppCompatActivity {
-    private CoordinatorLayout mCoordinatorLayout;
 
-    protected Toolbar mToolBar;
-    protected int layoutResID = R.layout.activity_base;
+    @BindView(R.id.toolbar)
+    Toolbar mToolBar;
+    @BindView(R.id.coordinator_layout)
+    CoordinatorLayout mCoordinatorLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setContentView(layoutResID);
+        setContentView(setContentViewLayout());
+        ButterKnife.bind(this);
 
-        mToolBar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(mToolBar);
+    }
 
-        mCoordinatorLayout = (CoordinatorLayout) findViewById(R.id.coordinator_layout);
+    protected @LayoutRes int setContentViewLayout() {
+        return R.layout.activity_base;
     }
 
     @Override

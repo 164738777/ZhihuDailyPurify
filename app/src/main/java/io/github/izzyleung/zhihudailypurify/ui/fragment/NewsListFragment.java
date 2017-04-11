@@ -12,6 +12,8 @@ import android.view.ViewGroup;
 import java.util.ArrayList;
 import java.util.List;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
 import io.github.izzyleung.zhihudailypurify.R;
 import io.github.izzyleung.zhihudailypurify.ZhihuDailyPurifyApplication;
 import io.github.izzyleung.zhihudailypurify.adapter.NewsAdapter;
@@ -29,6 +31,12 @@ import rx.schedulers.Schedulers;
 
 public class NewsListFragment extends Fragment
         implements SwipeRefreshLayout.OnRefreshListener, Observer<List<DailyNews>> {
+
+    @BindView(R.id.news_list)
+    RecyclerView mRecyclerView;
+    @BindView(R.id.swipe_refresh_layout)
+    SwipeRefreshLayout mSwipeRefreshLayout;
+
     private List<DailyNews> newsList = new ArrayList<>();
 
     private String date;
@@ -37,8 +45,6 @@ public class NewsListFragment extends Fragment
     // Fragment is single in SingleDayNewsActivity
     private boolean isToday;
     private boolean isRefreshed = false;
-
-    private SwipeRefreshLayout mSwipeRefreshLayout;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -57,8 +63,8 @@ public class NewsListFragment extends Fragment
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_news_list, container, false);
 
-        assert view != null;
-        RecyclerView mRecyclerView = (RecyclerView) view.findViewById(R.id.news_list);
+        ButterKnife.bind(this, view);
+
         mRecyclerView.setHasFixedSize(!isToday);
 
         LinearLayoutManager llm = new LinearLayoutManager(getActivity());
@@ -68,7 +74,6 @@ public class NewsListFragment extends Fragment
         mAdapter = new NewsAdapter(newsList);
         mRecyclerView.setAdapter(mAdapter);
 
-        mSwipeRefreshLayout = (SwipeRefreshLayout) view.findViewById(R.id.swipe_refresh_layout);
         mSwipeRefreshLayout.setOnRefreshListener(this);
         mSwipeRefreshLayout.setColorSchemeResources(R.color.color_primary);
 

@@ -33,13 +33,21 @@ dependencies {
     compile 'com.android.support:recyclerview-v7:23.3.0'
     compile 'com.android.support:design:23.3.0'
     compile 'com.google.code.gson:gson:2.4'
+    // https://github.com/jhy/jsoup
+    // https://jsoup.org/download
     compile 'org.jsoup:jsoup:1.7.3'
+    // https://github.com/nostra13/Android-Universal-Image-Loader
     compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.3'
+    // https://github.com/square/android-times-square
     compile 'com.squareup:android-times-square:1.6.4@aar'
+    // https://github.com/eowise/recyclerview-stickyheaders
     compile 'com.eowise:recyclerview-stickyheaders:0.5.2@aar'
     compile 'io.reactivex:rxandroid:1.1.0'
     compile 'io.reactivex:rxjava:1.1.3'
+    // https://github.com/aNNiMON/Lightweight-Stream-API
     compile 'com.annimon:stream:1.0.9'
+    compile 'com.jakewharton:butterknife:8.5.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
 
     compile fileTree(dir: 'libs', include: ['*.jar'])
 }
