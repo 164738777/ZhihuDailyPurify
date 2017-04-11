@@ -1,7 +1,0 @@
-#Tue Apr 11 23:32:27 CST 2017
-base.0=F\:\\MyGit\\ZhihuDailyPurify\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_9407b7ca7ae74e38fb80989dce7b1dafe79fc423
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=F\:\\MyGit\\ZhihuDailyPurify\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_f326e518e04191e8ebc58d796089b7fec151bec2\\classes.dex
-base.1=F\:\\MyGit\\ZhihuDailyPurify\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_f326e518e04191e8ebc58d796089b7fec151bec2
-file.0=F\:\\MyGit\\ZhihuDailyPurify\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_9407b7ca7ae74e38fb80989dce7b1dafe79fc423\\classes.dex
