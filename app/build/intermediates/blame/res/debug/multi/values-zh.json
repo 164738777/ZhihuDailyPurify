@@ -1,0 +1,541 @@
+[
+    {
+        "outputFile": "F:\\MyGit\\ZhihuDailyPurify\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh\\values-zh.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 61,
+                    "endOffset": 112
+                },
+                "from": {
+                    "file": "F:\\MyGit\\ZhihuDailyPurify\\app\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 1535,
+                        "endColumn": 61,
+                        "endOffset": 1592
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 117,
+                    "endColumn": 49,
+                    "endOffset": 162
+                },
+                "from": {
+                    "file": "F:\\MyGit\\ZhihuDailyPurify\\app\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 627,
+                        "endColumn": 49,
+                        "endOffset": 672
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 167,
+                    "endColumn": 44,
+                    "endOffset": 207
+                },
+                "from": {
+                    "file": "F:\\MyGit\\ZhihuDailyPurify\\app\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1243,
+                        "endColumn": 44,
+                        "endOffset": 1283
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 212,
+                    "endColumn": 48,
+                    "endOffset": 256
+                },
+                "from": {
+                    "file": "F:\\MyGit\\ZhihuDailyPurify\\app\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 103,
+                        "endColumn": 48,
+                        "endOffset": 147
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 261,
+                    "endColumn": 47,
+                    "endOffset": 304
+                },
+                "from": {
+                    "file": "F:\\MyGit\\ZhihuDailyPurify\\app\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 1443,
+                        "endColumn": 47,
+                        "endOffset": 1486
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 309,
+                    "endColumn": 44,
+                    "endOffset": 349
+                },
+                "from": {
+                    "file": "F:\\MyGit\\ZhihuDailyPurify\\app\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endColumn": 44,
+                        "endOffset": 97
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 354,
+                    "endColumn": 45,
+                    "endOffset": 395
+                },
+                "from": {
+                    "file": "F:\\MyGit\\ZhihuDailyPurify\\app\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 274,
+                        "endColumn": 45,
+                        "endOffset": 315
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 400,
+                    "endColumn": 66,
+                    "endOffset": 462
+                },
+                "from": {
+                    "file": "F:\\MyGit\\ZhihuDailyPurify\\app\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 206,
+                        "endColumn": 66,
+                        "endOffset": 268
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 467,
+                    "endLine": 12,
+                    "endColumn": 13,
+                    "endOffset": 532
+                },
+                "from": {
+                    "file": "F:\\MyGit\\ZhihuDailyPurify\\app\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 475,
+                        "endLine": 12,
+                        "endColumn": 13,
+                        "endOffset": 542
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 537,
+                    "endColumn": 77,
+                    "endOffset": 610
+                },
+                "from": {
+                    "file": "F:\\MyGit\\ZhihuDailyPurify\\app\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 548,
+                        "endColumn": 77,
+                        "endOffset": 621
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 615,
+                    "endColumn": 47,
+                    "endOffset": 658
+                },
+                "from": {
+                    "file": "F:\\MyGit\\ZhihuDailyPurify\\app\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 734,
+                        "endColumn": 47,
+                        "endOffset": 777
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 663,
+                    "endColumn": 51,
+                    "endOffset": 710
+                },
+                "from": {
+                    "file": "F:\\MyGit\\ZhihuDailyPurify\\app\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 153,
+                        "endColumn": 51,
+                        "endOffset": 200
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 715,
+                    "endColumn": 56,
+                    "endOffset": 767
+                },
+                "from": {
+                    "file": "F:\\MyGit\\ZhihuDailyPurify\\app\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 783,
+                        "endColumn": 65,
+                        "endOffset": 844
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 772,
+                    "endColumn": 54,
+                    "endOffset": 822
+                },
+                "from": {
+                    "file": "F:\\MyGit\\ZhihuDailyPurify\\app\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 1339,
+                        "endColumn": 54,
+                        "endOffset": 1389
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 827,
+                    "endColumn": 57,
+                    "endOffset": 880
+                },
+                "from": {
+                    "file": "F:\\MyGit\\ZhihuDailyPurify\\app\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 916,
+                        "endColumn": 66,
+                        "endOffset": 978
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 885,
+                    "endColumn": 55,
+                    "endOffset": 936
+                },
+                "from": {
+                    "file": "F:\\MyGit\\ZhihuDailyPurify\\app\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 850,
+                        "endColumn": 64,
+                        "endOffset": 910
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 941,
+                    "endColumn": 48,
+                    "endOffset": 985
+                },
+                "from": {
+                    "file": "F:\\MyGit\\ZhihuDailyPurify\\app\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 1289,
+                        "endColumn": 48,
+                        "endOffset": 1333
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 990,
+                    "endColumn": 46,
+                    "endOffset": 1032
+                },
+                "from": {
+                    "file": "F:\\MyGit\\ZhihuDailyPurify\\app\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 1395,
+                        "endColumn": 46,
+                        "endOffset": 1437
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1037,
+                    "endColumn": 58,
+                    "endOffset": 1091
+                },
+                "from": {
+                    "file": "F:\\MyGit\\ZhihuDailyPurify\\app\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 1183,
+                        "endColumn": 58,
+                        "endOffset": 1237
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1096,
+                    "endColumn": 46,
+                    "endOffset": 1138
+                },
+                "from": {
+                    "file": "F:\\MyGit\\ZhihuDailyPurify\\app\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 373,
+                        "endColumn": 46,
+                        "endOffset": 415
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1143,
+                    "endColumn": 52,
+                    "endOffset": 1191
+                },
+                "from": {
+                    "file": "F:\\MyGit\\ZhihuDailyPurify\\app\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 421,
+                        "endColumn": 52,
+                        "endOffset": 469
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 1196,
+                    "endColumn": 50,
+                    "endOffset": 1242
+                },
+                "from": {
+                    "file": "F:\\MyGit\\ZhihuDailyPurify\\app\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 321,
+                        "endColumn": 50,
+                        "endOffset": 367
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1247,
+                    "endColumn": 50,
+                    "endOffset": 1293
+                },
+                "from": {
+                    "file": "F:\\MyGit\\ZhihuDailyPurify\\app\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 4,
+                        "startOffset": 1598,
+                        "endColumn": 50,
+                        "endOffset": 1644
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 1298,
+                    "endColumn": 41,
+                    "endOffset": 1335
+                },
+                "from": {
+                    "file": "F:\\MyGit\\ZhihuDailyPurify\\app\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 1492,
+                        "endColumn": 41,
+                        "endOffset": 1529
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 1340,
+                    "endColumn": 59,
+                    "endOffset": 1395
+                },
+                "from": {
+                    "file": "F:\\MyGit\\ZhihuDailyPurify\\app\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1042,
+                        "endColumn": 59,
+                        "endOffset": 1097
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 1400,
+                    "endColumn": 78,
+                    "endOffset": 1474
+                },
+                "from": {
+                    "file": "F:\\MyGit\\ZhihuDailyPurify\\app\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1103,
+                        "endColumn": 78,
+                        "endOffset": 1177
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 1479,
+                    "endColumn": 54,
+                    "endOffset": 1529
+                },
+                "from": {
+                    "file": "F:\\MyGit\\ZhihuDailyPurify\\app\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 678,
+                        "endColumn": 54,
+                        "endOffset": 728
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 1534,
+                    "endColumn": 56,
+                    "endOffset": 1586
+                },
+                "from": {
+                    "file": "F:\\MyGit\\ZhihuDailyPurify\\app\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 984,
+                        "endColumn": 56,
+                        "endOffset": 1036
+                    }
+                }
+            }
+        ]
+    }
+]
