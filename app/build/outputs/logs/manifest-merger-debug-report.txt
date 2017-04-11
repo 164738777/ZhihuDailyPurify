@@ -2,16 +2,16 @@
 manifest
 ADDED from F:\MyGit\ZhihuDailyPurify\app\src\main\AndroidManifest.xml:2:1-47:12
 	package
-		ADDED from F:\MyGit\ZhihuDailyPurify\app\src\main\AndroidManifest.xml:3:5-51
+		ADDED from F:\MyGit\ZhihuDailyPurify\app\src\main\AndroidManifest.xml:5:5-51
 		INJECTED from F:\MyGit\ZhihuDailyPurify\app\src\main\AndroidManifest.xml
 		INJECTED from F:\MyGit\ZhihuDailyPurify\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from F:\MyGit\ZhihuDailyPurify\app\src\main\AndroidManifest.xml
 		INJECTED from F:\MyGit\ZhihuDailyPurify\app\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from F:\MyGit\ZhihuDailyPurify\app\src\main\AndroidManifest.xml:5:5-51
+		ADDED from F:\MyGit\ZhihuDailyPurify\app\src\main\AndroidManifest.xml:4:5-51
 	xmlns:android
-		ADDED from F:\MyGit\ZhihuDailyPurify\app\src\main\AndroidManifest.xml:4:5-63
+		ADDED from F:\MyGit\ZhihuDailyPurify\app\src\main\AndroidManifest.xml:3:5-63
 	android:versionCode
 		INJECTED from F:\MyGit\ZhihuDailyPurify\app\src\main\AndroidManifest.xml
 		INJECTED from F:\MyGit\ZhihuDailyPurify\app\src\main\AndroidManifest.xml

@@ -77,19 +77,11 @@ public class MainActivity extends BaseActivity {
 
         @Override
         public Fragment getItem(int i) {
-            Bundle bundle = new Bundle();
-            Fragment newFragment = new NewsListFragment();
-
             Calendar dateToGetUrl = Calendar.getInstance();
             dateToGetUrl.add(Calendar.DAY_OF_YEAR, 1 - i);
             String date = Constants.Dates.simpleDateFormat.format(dateToGetUrl.getTime());
 
-            bundle.putString(Constants.BundleKeys.DATE, date);
-            bundle.putBoolean(Constants.BundleKeys.IS_FIRST_PAGE, i == 0);
-            bundle.putBoolean(Constants.BundleKeys.IS_SINGLE, false);
-
-            newFragment.setArguments(bundle);
-            return newFragment;
+            return NewsListFragment.newInstance(date, i == 0, false);
         }
 
         @Override

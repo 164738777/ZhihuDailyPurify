@@ -4,26 +4,32 @@
     density="420dpi"
     format="8"
     plugin-version="2.2.0"
-    timestamp="13769942757180"
+    timestamp="14972994857726"
     token="-392762590676308634"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="1665" />
+        duration="1522" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="922" />
+        duration="56" />
     <task
         name="verifier"
-        duration="358" />
+        duration="24" />
 
     <artifact
-        location="F:\MyGit\ZhihuDailyPurify\app\build\outputs\apk\app-debug.apk"
-        type="MAIN" />
+        location="F:\MyGit\ZhihuDailyPurify\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+        type="RESOURCES" />
+    <artifact
+        location="F:\MyGit\ZhihuDailyPurify\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
+        type="DEX" />
+    <artifact
+        location="F:\MyGit\ZhihuDailyPurify\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
+        type="DEX" />
 
     <build
         timestamp="13769942757180"
@@ -31,6 +37,19 @@
         <artifact
             location="F:\MyGit\ZhihuDailyPurify\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="14972994857726"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="F:\MyGit\ZhihuDailyPurify\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+            type="RESOURCES" />
+        <artifact
+            location="F:\MyGit\ZhihuDailyPurify\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
+            type="DEX" />
+        <artifact
+            location="F:\MyGit\ZhihuDailyPurify\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
+            type="DEX" />
     </build>
 
 </instant-run>

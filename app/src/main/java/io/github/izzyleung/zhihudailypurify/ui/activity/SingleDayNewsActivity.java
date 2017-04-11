@@ -1,7 +1,6 @@
 package io.github.izzyleung.zhihudailypurify.ui.activity;
 
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
 
 import java.text.DateFormat;
 import java.text.ParseException;
@@ -18,7 +17,6 @@ public class SingleDayNewsActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
 
         Bundle bundle = getIntent().getExtras();
-        Fragment newFragment = new NewsListFragment();
 
         String dateString = bundle.getString(Constants.BundleKeys.DATE);
         Calendar calendar = Calendar.getInstance();
@@ -34,16 +32,9 @@ public class SingleDayNewsActivity extends BaseActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setTitle(DateFormat.getDateInstance().format(calendar.getTime()));
 
-        bundle.putString(Constants.BundleKeys.DATE, dateString);
-        bundle.putBoolean(Constants.BundleKeys.IS_FIRST_PAGE,
-                isSameDay(calendar, Calendar.getInstance()));
-        bundle.putBoolean(Constants.BundleKeys.IS_SINGLE, true);
-
-        newFragment.setArguments(bundle);
-
         getSupportFragmentManager()
                 .beginTransaction()
-                .replace(R.id.fragment_frame, newFragment)
+                .replace(R.id.fragment_frame, NewsListFragment.newInstance(dateString, isSameDay(calendar, Calendar.getInstance()), true))
                 .commit();
     }
 

@@ -46,6 +46,18 @@ public class NewsListFragment extends Fragment
     private boolean isToday;
     private boolean isRefreshed = false;
 
+    public static NewsListFragment newInstance(String date, boolean isFirstPage, boolean isSingle) {
+        NewsListFragment fragment = new NewsListFragment();
+
+        Bundle bundle = new Bundle();
+        bundle.putString(Constants.BundleKeys.DATE, date);
+        bundle.putBoolean(Constants.BundleKeys.IS_FIRST_PAGE, isFirstPage);
+        bundle.putBoolean(Constants.BundleKeys.IS_SINGLE, isSingle);
+
+        fragment.setArguments(bundle);
+        return fragment;
+    }
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
