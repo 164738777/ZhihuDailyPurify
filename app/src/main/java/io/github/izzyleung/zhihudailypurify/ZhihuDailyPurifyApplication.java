@@ -9,6 +9,7 @@ import com.nostra13.universalimageloader.cache.disc.naming.Md5FileNameGenerator;
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
 import com.nostra13.universalimageloader.core.assist.QueueProcessingType;
+import com.tencent.bugly.crashreport.CrashReport;
 
 import io.github.izzyleung.zhihudailypurify.db.DailyNewsDataSource;
 
@@ -38,6 +39,8 @@ public final class ZhihuDailyPurifyApplication extends Application {
     public void onCreate() {
         super.onCreate();
         applicationContext = this;
+
+        CrashReport.initCrashReport(getApplicationContext());
 
         initImageLoader(getApplicationContext());
         dataSource = new DailyNewsDataSource(getApplicationContext());
