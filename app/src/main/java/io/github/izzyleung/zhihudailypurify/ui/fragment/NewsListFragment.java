@@ -1,7 +1,6 @@
 package io.github.izzyleung.zhihudailypurify.ui.fragment;
 
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -13,7 +12,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import butterknife.BindView;
-import butterknife.ButterKnife;
 import io.github.izzyleung.zhihudailypurify.R;
 import io.github.izzyleung.zhihudailypurify.ZhihuDailyPurifyApplication;
 import io.github.izzyleung.zhihudailypurify.adapter.NewsAdapter;
@@ -29,7 +27,7 @@ import rx.Observer;
 import rx.android.schedulers.AndroidSchedulers;
 import rx.schedulers.Schedulers;
 
-public class NewsListFragment extends Fragment
+public class NewsListFragment extends BaseFragment
         implements SwipeRefreshLayout.OnRefreshListener, Observer<List<DailyNews>> {
 
     @BindView(R.id.news_list)
@@ -73,9 +71,7 @@ public class NewsListFragment extends Fragment
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_news_list, container, false);
-
-        ButterKnife.bind(this, view);
+        View view = super.onCreateView(inflater, container, savedInstanceState);
 
         mRecyclerView.setHasFixedSize(!isToday);
 
@@ -107,6 +103,11 @@ public class NewsListFragment extends Fragment
         super.setUserVisibleHint(isVisibleToUser);
 
         refreshIf(shouldRefreshOnVisibilityChange(isVisibleToUser));
+    }
+
+    @Override
+    protected int getLayoutRes() {
+        return R.layout.fragment_news_list;
     }
 
     private void refreshIf(boolean prerequisite) {

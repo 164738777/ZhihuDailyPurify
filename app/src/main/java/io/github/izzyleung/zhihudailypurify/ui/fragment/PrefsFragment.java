@@ -20,6 +20,10 @@ import io.github.izzyleung.zhihudailypurify.support.Constants;
 public class PrefsFragment extends PreferenceFragment
         implements Preference.OnPreferenceClickListener {
 
+    public static PrefsFragment newInstance() {
+        return new PrefsFragment();
+    }
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -33,7 +33,7 @@ public class SearchActivity extends BaseActivity implements Observer<List<DailyN
         initView();
         initDialog();
 
-        searchNewsFragment = new SearchNewsFragment();
+        searchNewsFragment = SearchNewsFragment.newInstance();
         getSupportFragmentManager()
                 .beginTransaction()
                 .add(R.id.fragment_frame, searchNewsFragment)

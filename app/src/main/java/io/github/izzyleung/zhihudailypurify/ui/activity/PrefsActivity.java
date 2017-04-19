@@ -12,7 +12,7 @@ public class PrefsActivity extends BaseActivity {
 
         getFragmentManager()
                 .beginTransaction()
-                .replace(R.id.fragment_frame, new PrefsFragment())
+                .replace(R.id.fragment_frame, PrefsFragment.newInstance())
                 .commit();
     }
 }
